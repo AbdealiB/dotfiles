@@ -33,7 +33,9 @@ then
 	mv $bash_rc $HOME/
 	mv $bash_profile $HOME/
 	echo "Files Moved"
-
 else
 	echo "Files Not Moved"
 fi
+
+#Installing the Packages
+./install.sh
